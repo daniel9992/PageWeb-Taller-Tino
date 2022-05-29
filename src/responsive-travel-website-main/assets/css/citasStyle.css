@@ -1,0 +1,265 @@
+.header {
+  background-color: #4facf7;
+}
+
+.visiblynone {
+  visibility: hidden;
+  height: 0px;
+}
+
+.formcontainer {
+  width: 70%;
+  margin: auto;
+}
+
+.gridforms {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--title-color);
+  border-radius: 35px;
+  margin: 0;
+  padding: 15px;
+}
+.gridfrom-Item {
+  background-color: #5f2c82;
+  width: 350px;
+  padding: 15px;
+  border-radius: 15px;
+  margin: auto;
+}
+.gridfrom-Item div {
+  background-color: var(--first-color-second);
+  margin-bottom: 5px;
+  border-radius: 0 15px 0 0;
+}
+.gridfrom-Item div h1 {
+  color: var(--text-color);
+  padding: 3px;
+}
+.gridfrom-Item div input {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+
+.formClient {
+  width: 450px;
+}
+
+.form-img {
+  height: 285px;
+  margin: auto;
+  border-radius: 35px;
+}
+.form-img:hover {
+  transform: rotateY(180deg);
+}
+
+.textColor {
+  color: aliceblue !important;
+  margin: 0;
+}
+.textSpace {
+  margin-top: 50px;
+}
+.btn-container {
+  display: inline-block;
+  width: 100%;
+}
+.btn-submitcitas {
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #eed6d3;
+}
+.btn-submit:hover {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.table-contanier {
+  width: 100%;
+  display: block;
+  padding: 0 50px;
+  margin-bottom: 25px;
+}
+
+.table-contanier table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+
+  /* colores*/
+  margin: auto;
+  background-color: #eed6d3;
+  border-collapse: collapse;
+}
+.table-contanier table tbody {
+  display: table;
+  width: 100%;
+}
+
+.table-contanier table tr th {
+  background-color: #5f2c82;
+  color: #eed6d3;
+}
+
+.table-contanier table tr td:hover {
+  /* colores*/
+  background-color: #ebdfde;
+  color: #5f2c82;
+}
+.table-contanier table,
+td,
+th {
+  text-align: center;
+  border: 1px solid black;
+  color: #918887;
+  background-color: var(--first-color-second);
+}
+.table-contanier table td {
+  padding: 5px 10px;
+}
+
+.active {
+  background-color: #eed6d3;
+}
+/*=============== MEDIA QUERIES ===============*/
+/* For small devices */
+@media screen and (max-width: 340px) {
+}
+
+@media screen and (max-width: 376px) {
+  .formcontainer {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .gridforms {
+    display: inline-block;
+    border-radius: 35px;
+    padding: 1px;
+  }
+
+  .gridfrom-Item {
+    background-color: transparent;
+  }
+  .gridfrom-Item div {
+    background-color: #5f2c82;
+  }
+  .form-img {
+    height: 185px;
+    padding: 5px;
+    margin: auto;
+  }
+  .formcontainer {
+    grid-row: auto auto;
+  }
+  .reversed {
+    display: grid;
+    grid-template-areas:
+      'a a a'
+      'b b b';
+  }
+  .reversed-itemF {
+    grid-area: b;
+  }
+  .reversed-itemI {
+    grid-area: a;
+  }
+  .btn-submit {
+    margin-left: 25vw;
+  }
+
+  .table-contanier {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin-bottom: 25px;
+  }
+
+  .table-contanier table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .table-contanier table tbody {
+    display: table;
+    width: 100%;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 568px) {
+  .formcontainer {
+    margin-top: 50px;
+
+    width: 100%;
+  }
+  .gridforms {
+    display: inline-block;
+    border-radius: 35px;
+    padding: 1px;
+    margin: 15px;
+  }
+
+  .gridfrom-Item {
+    background-color: transparent;
+  }
+  .gridfrom-Item div {
+    background-color: #5f2c82;
+  }
+  .form-img {
+    height: 185px;
+    padding: 5px;
+    margin: auto;
+  }
+  .formcontainer {
+    grid-row: auto auto;
+  }
+  .reversed {
+    display: grid;
+    grid-template-areas:
+      'a a a'
+      'b b b';
+  }
+  .reversed-itemF {
+    grid-area: b;
+  }
+  .reversed-itemI {
+    grid-area: a;
+  }
+  .btn-submit {
+    margin-left: 25vw;
+  }
+
+  .table-contanier {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin-bottom: 25px;
+  }
+
+  .table-contanier table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .table-contanier table tbody {
+    display: table;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+/* For large devices */
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+/* For tall screens on mobiles y desktop*/
+@media screen and (min-height: 721px) {
+}

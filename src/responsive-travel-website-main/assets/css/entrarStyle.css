@@ -1,0 +1,79 @@
+.header {
+  background-color: #4facf7;
+}
+
+.loginform {
+  padding: 15px;
+  height: 450px;
+  background-color: palegreen;
+  width: 350px;
+  margin: auto;
+  border-radius: 35px;
+}
+
+.formCenter {
+  margin-top: 10vh;
+  display: grid;
+  grid-gap: 5px;
+
+  grid-template-rows: repeat(150, 150, 150);
+}
+.item {
+  width: auto;
+  background-color: rebeccapurple;
+  margin-bottom: 25px;
+  border-radius: 15px;
+}
+.item input {
+  width: 100%;
+  padding: 15px;
+}
+
+.item h1 {
+  color: aliceblue;
+  padding: 5px;
+  margin: 5px;
+}
+
+.accessbtn {
+  background-color: #04aa6d;
+  color: aliceblue;
+  font-size: large;
+  font-family: var(--body-font);
+  height: 35px;
+  border-radius: 35px;
+  width: 45%;
+  margin: auto;
+}
+
+.accessbtn:hover {
+  background-color: #af9e51;
+}
+
+.visiblynone {
+  visibility: hidden;
+  height: 0px;
+}
+
+/*=============== MEDIA QUERIES ===============*/
+/* For small devices */
+@media screen and (max-width: 340px) {
+}
+
+/* For medium devices */
+@media screen and (min-width: 568px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+/* For large devices */
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+/* For tall screens on mobiles y desktop*/
+@media screen and (min-height: 721px) {
+}

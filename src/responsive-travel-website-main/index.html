@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="assets/img/logo.png" type="image/png" />
+
+  <!--=============== REMIXICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!--=============== CSS card ===============-->
+  <link rel="stylesheet" href="./assets/css/cardstyle.css" />
+
+  <title>Taller Tino</title>
+</head>
+
+<body>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Taller Tino</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#why_us" class="nav__link">Porque Nosotros</a>
+          </li>
+          <li class="nav__item">
+            <a href="#satisfied-customers" class="nav__link">Clientes satisfechos</a>
+          </li>
+          <li class="nav__item">
+            <a href="#history" class="nav__link">Historia</a>
+          </li>
+          <li class="nav__item">
+            <a href="./citas.html" class="nav__link">Citas</a>
+          </li>
+          <li class="nav__item">
+            <a href="./entrar.html" class="nav__link">Entrar</a>
+          </li>
+
+        </ul>
+        </ul>
+
+        <div class="nav__dark">
+          <!-- Theme change button -->
+          <span class="change-theme-name">Dark mode</span>
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+        </div>
+
+        <i class="ri-close-line nav__close" id="nav-close"></i>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-function-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home" id="home">
+      <img src="assets/img/background.svg" alt="" class="home__img" />
+
+      <div class="home__container container grid">
+        <div class="home__data">
+          <span class="home__data-subtitle">Empresa familiar</span>
+          <h1 class="home__data-title">
+            Explore el <br />
+            talento
+            <b>de Años <br />
+              y Experiencias</b>
+          </h1>
+          <a href="#footer" class="button">Contáctenos</a>
+        </div>
+
+        <div class="home__social">
+          <a href="https://www.facebook.com/Tinotaller09" target="_blank" class="home__social-link">
+            <i class="ri-facebook-box-fill"></i>
+          </a>
+          <a href="instagram.com/tallertino09" target="_blank" class="home__social-link">
+            <i class="ri-instagram-fill"></i>
+          </a>
+          <a href="https://wa.me/50688356264" target="_blank" class="home__social-link">
+            <i class="ri-whatsapp-fill"></i>
+          </a>
+        </div>
+        <br />
+        <div class="home__info">
+          <br />
+
+          <div class="home__info-overlay">
+            <img src="assets/img/logo.png" alt="" class="home__info-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--==================== why_us ====================-->
+    <section class="about section" id="why_us">
+      <div class="about__container container grid">
+        <div class="about__data">
+          <h2 class="section__title about__title">
+            Proyectamos en dar <br />
+            seguridad y confianza a nuestros clientes
+          </h2>
+          <p class="about__description">
+            Quiere decir, que el trabajo duro con metas, idea o sueño, se verá influenciado por la cantidad de gente que
+            apueste por él y no hay mejor apoyo que de la mano de los expertos.
+          </p>
+          <a href="#history" class="button">Historia</a>
+        </div>
+
+        <div class="about__img">
+          <div class="about__img-overlay">
+            <img src="assets/img/Batea.jpg" alt="" class="about__img-one" />
+          </div>
+
+          <div class="about__img-overlay">
+            <img src="assets/img/EscapeMoto.jpg" alt="" class="about__img-two" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== satisfied-customers ====================-->
+    <section class="discover section" id="satisfied-customers">
+      <h2 class="section__title">
+        Productos y Servicios <br />
+        de clientes satisfechos
+      </h2>
+
+      <div class="discover__container container swiper-container">
+        <div class="swiper-wrapper">
+          <!--==================== DISCOVER 1 ====================-->
+          <div class="discover__card swiper-slide">
+            <img src="assets/img/5.jpg" alt="" class="discover__img" />
+            <div class="discover__data">
+              <h2 class="discover__title">Pegadero</h2>
+              <span class="discover__description">Ajustable a cualquier vehículo</span>
+            </div>
+          </div>
+
+          <!--==================== DISCOVER 2 ====================-->
+          <div class="discover__card swiper-slide">
+            <img src="assets/img/6.jpg" alt="" class="discover__img" />
+            <div class="discover__data">
+              <h2 class="discover__title">Escape</h2>
+              <span class="discover__description">De distintos metales</span>
+            </div>
+          </div>
+
+          <!--==================== DISCOVER 3 ====================-->
+          <div class="discover__card swiper-slide">
+            <img src="assets/img/7.jpg" alt="" class="discover__img" />
+
+            <div class="discover__data">
+              <h2 class="discover__title">Escaleras</h2>
+              <span class="discover__description">Para subir a lo más alto</span>
+            </div>
+          </div>
+
+          <!--==================== DISCOVER 4 ====================-->
+          <div class="discover__card swiper-slide">
+            <img src="assets/img/8.jpg" alt="" class="discover__img" />
+            <div class="discover__data">
+              <h2 class="discover__title">Canasta</h2>
+              <span class="discover__description">Lleva las maletas de forma segura</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--==================== Historia ====================-->
+    <section class="place section" id="history">
+      <h2 class="section__title">Historia</h2>
+      <div class="history-container grid">
+
+        <div class="place__card card" style="background-image: url('./assets/img/h1.png');">
+          <div class="card-content">
+            <h2 class="card-title">Something awesome</h2>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor, lectus ut molestie
+              dignissim, nulla
+              mi ornare purus, et ultricies nisl nibh vel nisl.
+            </p>
+
+          </div>
+        </div>
+
+        <div class="place__card card" style="background-image: url('./assets/img/h2.png');">
+          <div class="card-content">
+            <h2 class="card-title">Something awesome</h2>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor, lectus ut molestie
+              dignissim, nulla
+              mi ornare purus, et ultricies nisl nibh vel nisl.
+            </p>
+
+          </div>
+        </div>
+
+        <div class="place__card card" style="background-image: url('./assets/img/h3.png');">
+          <div class="card-content">
+            <h2 class="card-title">Something awesome</h2>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor, lectus ut molestie
+              dignissim, nulla
+              mi ornare purus, et ultricies nisl nibh vel nisl.
+            </p>
+
+          </div>
+        </div>
+
+        <div class="place__card card" style="background-image: url('./assets/img/h4.png');">
+          <div class="card-content">
+            <h2 class="card-title">Something awesome</h2>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor, lectus ut molestie
+              dignissim, nulla
+              mi ornare purus, et ultricies nisl nibh vel nisl.
+            </p>
+
+          </div>
+        </div>
+
+
+        <div class="place__card card" style="background-image: url('./assets/img/h5.png');">
+          <div class="card-content">
+            <h2 class="card-title">Something awesome</h2>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor, lectus ut molestie
+              dignissim, nulla
+              mi ornare purus, et ultricies nisl nibh vel nisl.
+            </p>
+
+          </div>
+        </div>
+
+        <div class="place__card card" style="background-image: url('./assets/img/h6.png');">
+          <div class="card-content">
+            <h2 class="card-title">Something awesome</h2>
+            <p class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor, lectus ut molestie
+              dignissim, nulla
+              mi ornare purus, et ultricies nisl nibh vel nisl.
+            </p>
+
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    <!--==================== Como llegar ====================-->
+    <section class="subscribe section">
+      <div class="subscribe__bg">
+        <div class="subscribe__container container">
+          <h2 class="section__title subscribe__title">
+            Como Llegar <br />
+            Al taller
+          </h2>
+
+          <div class="where_img">
+            <img src="./assets/img/mapa.PNG" />
+          </div>
+
+          <p class="subscribe__description">
+            Porque no, una ayudita con Waze para encontrar el camino !!!
+          </p>
+          <div class="home__social home__socialCenter">
+            <a href="https://ul.waze.com/ul?preview_venue_id=180748388.1807352810.23151344&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
+              target="_blank" class="home__social-link">
+
+              <img src="./assets/img/waze_PNG39.png" class="home__socialimg" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer section" id="footer">
+    <div class="footer__container container grid">
+      <div class="footer__content grid">
+        <div class="footer__data">
+          <h3 class="footer__title">Taller Tino</h3>
+          <p class="footer__description">
+            Los cuidados que le das <br />
+            a tu vehículo, permitira el <br />
+            ahorro tanto de enojos, <br />
+            dinero como tiempo.
+          </p>
+          <div>
+            <a href="https://www.facebook.com/Tinotaller09" target="_blank" class="footer__social">
+              <i class="ri-facebook-box-fill"></i>
+            </a>
+            <a href="instagram.com/tallertino09" target="_blank" class="footer__social">
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="https://wa.me/50688356264" target="_blank" class="footer__social">
+              <i class="ri-whatsapp-fill"></i>
+            </a>
+          </div>
+        </div>
+
+
+
+        <div class="footer__data">
+          <h3 class="footer__subtitle">Comuníquese con nosotros</h3>
+          <ul>
+            <li class="footer__item">
+              <a href="" class="footer__link">Teléfono</a>
+            </li>
+            <li class="footer__item">
+              <a href="tel:50624411724" class="footer__link">2441 1721</a>
+            </li>
+            <li class="footer__item">
+              <a href="tel:506288356264" class="footer__link">8835 6264</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__data">
+          <h3 class="footer__subtitle">Otras formas</h3>
+          <ul>
+            <li class="footer__item">
+              <a href="tinova09@gmail.com" class="footer__link">tinova09@gmail.com</a>
+            </li>
+            <li class="footer__item">
+              <a href="https://amarillascr.es/guia-pymes/taller-tino/" class="footer__link">Páginas amarillas</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__rights">
+        <p class="footer__copy">
+          &#169; 2021 Daniel. Todos Los Derechos Reservados
+        </p>
+        <div class="footer__terms">
+          <a href="#" class="footer__terms-link">Política de Privacidad</a>
+        </div>
+      </div>
+    </div>
+    <section class="video section visiblynone">
+      <div class="video__container container visiblynone">
+        <div class="video__content visiblynone">
+          <video id="video-file"></video>
+          <button class="button button--flex video__button visiblynone" id="video-button"></button>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <!--========== SCROLL UP ==========-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line scrollup__icon"></i>
+  </a>
+
+  <!--=============== SCROLL REVEAL===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+
+  <!--=============== CARD JS ===============-->
+  <script src="assets/js/cardJS.js"></script>
+</body>
+
+</html>

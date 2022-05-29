@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="assets/img/logo.png" type="image/png" />
+
+  <!--=============== REMIXICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="./assets/css/entrarStyle.css" />
+
+  <title>Entrar</title>
+</head>
+
+<body>
+  <header class="header headerColor" id="header">
+    <nav class="nav container">
+      <a href="./index.html" class="nav__logo">Taller Tino</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="./index.html" class="nav__link active-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="./index.html" class="nav__link">Porque Nosotros</a>
+          </li>
+          <li class="nav__item">
+            <a href="./index.html" class="nav__link">Clientes satisfechos</a>
+          </li>
+          <li class="nav__item">
+            <a href="./index.html" class="nav__link">Historia</a>
+          </li>
+          <li class="nav__item">
+            <a href="./citas.html" class="nav__link">Citas</a>
+          </li>
+        </ul>
+
+        <div class="nav__dark">
+          <!-- Theme change button -->
+          <span class="change-theme-name">Dark mode</span>
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+        </div>
+
+        <i class="ri-close-line nav__close" id="nav-close"></i>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-function-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class=" place section loginform">
+      <form class="formCenter">
+        <div class="item">
+          <h1>Email</h1>
+          <input type="text" placeholder="Email" name="email" required />
+        </div>
+        <div class="item">
+          <h1>Contraseña</h1>
+          <input type="password" placeholder="Contraseña" name="password" required />
+        </div>
+        <button type="button" class="accessbtn">Entrar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer section" id="footer">
+    <div class="footer__container container grid">
+      <div class="footer__content grid">
+        <div class="footer__data">
+          <h3 class="footer__title">Taller Tino</h3>
+          <p class="footer__description">
+            Los cuidados que le das <br />
+            a tu vehículo, permitira el <br />
+            ahorro tanto de enojos, <br />
+            dinero como tiempo.
+          </p>
+          <div>
+            <a href="https://www.facebook.com/Tinotaller09" target="_blank" class="footer__social">
+              <i class="ri-facebook-box-fill"></i>
+            </a>
+            <a href="instagram.com/tallertino09" target="_blank" class="footer__social">
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="https://wa.me/50688356264" target="_blank" class="footer__social">
+              <i class="ri-whatsapp-fill"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__data">
+          <h3 class="footer__subtitle">Comuníquese con nosotros</h3>
+          <ul>
+            <li class="footer__item">
+              <a href="" class="footer__link">Teléfono</a>
+            </li>
+            <li class="footer__item">
+              <a href="tel:50624411724" class="footer__link">2441 1721</a>
+            </li>
+            <li class="footer__item">
+              <a href="tel:506288356264" class="footer__link">8835 6264</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__data">
+          <h3 class="footer__subtitle">Otras formas</h3>
+          <ul>
+            <li class="footer__item">
+              <a href="tinova09@gmail.com" class="footer__link">tinova09@gmail.com</a>
+            </li>
+            <li class="footer__item">
+              <a href="https://amarillascr.es/guia-pymes/taller-tino/" class="footer__link">Páginas amarillas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__rights">
+        <p class="footer__copy">
+          &#169; 2021 Daniel. Todos Los Derechos Reservados
+        </p>
+        <div class="footer__terms">
+          <a href="#" class="footer__terms-link">Política de Privacidad</a>
+        </div>
+      </div>
+    </div>
+    <section class="video section visiblynone">
+      <div class="video__container container visiblynone">
+        <div class="video__content visiblynone">
+          <video id="video-file"></video>
+          <button class="button button--flex video__button visiblynone" id="video-button"></button>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <!--========== SCROLL UP ==========-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line scrollup__icon"></i>
+  </a>
+
+  <!--=============== SCROLL REVEAL===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
